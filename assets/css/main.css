@@ -2694,16 +2694,6 @@ input, select, textarea {
 			padding:0;
 		}
 
-			#banner header h2 {
-				display: inline-block;
-				margin: 0;
-				font-size: 1.25em;
-				vertical-align: middle;
-			}
-
-				#banner header h2 em {
-					opacity: 0.75;
-				}
 
 				#banner header h1 a {
 					text-decoration: none;
