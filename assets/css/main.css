@@ -2705,12 +2705,12 @@ input, select, textarea {
 					opacity: 0.75;
 				}
 
-				#banner header h2 a {
+				#banner header h1 a {
 					text-decoration: none;
 					border-bottom-color: rgba(255, 255, 255, 0.5);
 				}
 
-					#banner header h2 a:hover {
+					#banner header h1 a:hover {
 						text-decoration: none;
 						color:  #f5c506ff;
 					}
