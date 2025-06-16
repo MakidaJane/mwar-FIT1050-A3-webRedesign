@@ -2694,13 +2694,23 @@ input, select, textarea {
 			padding:0;
 		}
 
+			#banner header h2 {
+				display: inline-block;
+				margin: 0;
+				font-size: 1.25em;
+				vertical-align: middle;
+			}
 
-				#banner header h1 a {
+				#banner header h2 em {
+					opacity: 0.75;
+				}
+
+				#banner header h2 a {
 					text-decoration: none;
 					border-bottom-color: rgba(255, 255, 255, 0.5);
 				}
 
-					#banner header h1 a:hover {
+					#banner header h2 a:hover {
 						text-decoration: none;
 						color:  #f5c506ff;
 					}
@@ -3374,6 +3384,9 @@ h2 {
   font-size: 39px;
   margin: 0;
 }
+h2 a {text-decoration: none;}
+h2 a:hover{ text-decoration: none;
+color: #f5c506ff;}
 
 p {
   font-family: "Nunito", sans-serif;
@@ -3387,6 +3400,7 @@ margin-top: 0;}
 a:hover {
   text-decoration: underline;
 }
+
 
 /* LOGO/OVERIDE */
 
